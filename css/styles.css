@@ -1,0 +1,128 @@
+
+body {
+  font-size: 16px;
+  color: ;
+  background-color: #F0F8FF;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+#header-nav {
+  background-color: #191970	;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { 
+  font-family: arial, sans-serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list a {
+color: #ffffff;
+
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff  ; }
+
+  .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#Chicken {
+  text-align: center;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #000000   ;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+/* fim do cabercário */
+
+/* inicio da pagina */
+
+#centro{
+ font-family: arial, sans-serif;
+  color: #191970;
+  text-transform: blond;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc; }
+.row { 
+background-color: #6495ED ;
+}
+
+.container { padding-right: 20px; padding-left: 20px; }
+
+.text-center {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .row { background-color: #191970  ;
+    font-family: arial, sans-serif;
+  color: #ffffff;
+  font-size: 1.3em;
+  
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 1;
+  margin-bottom: 1;
+  padding: 10px 15px;
+  
+
+  }
+  /*  consulta de midia */ 
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+
+  }
+
+  @media (max-width: 479px) { 
+    .navbar-brand h1 p { 
+    padding: 10px 15px;
+    font-size: 6vw;
+
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
